@@ -12,9 +12,9 @@ export default function Layout({ title, children }) {
       </Head>
       <div className="flex min-h-screen flex-col justify-between">
         <header>
-          <nav className="flex h-12 justify ">
+          <nav className="flex h-12 justify-between shadow-md">
             <Link href="/">
-              <a className="text-lg font-bold"> DzEcom</a>
+              <span className="text-lg font-bold"> DzEcom</span>
             </Link>
             <div>
               <Link href="/cart">Cart</Link>
