@@ -1,9 +1,5 @@
-import { Inter } from 'next/font/google';
+import Layout from '@/components/Layout';
 
 export default function Home() {
-  return (
-    <div>
-      <h1 className="text-3xl font-bold">next tailwind app</h1>
-    </div>
-  );
+  return <Layout title="home page">Home page</Layout>;
 }
